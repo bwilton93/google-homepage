@@ -1,0 +1,55 @@
+/* Base style reset */
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* Base styles */
+
+body {
+  background: #fff;
+}
+
+/* Navbar styling */
+
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+
+.navbar ul {
+  display: flex;
+  padding: 10px 10px;
+}
+
+.nav-wrap {
+  flex-wrap: wrap;
+}
+
+.navbar li {
+  padding-left: 10px;
+}
+
+/* Main elements styling */
+
+.main-elements {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
