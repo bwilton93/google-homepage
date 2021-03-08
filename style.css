@@ -111,3 +111,14 @@ body {
   width: 20px;
   height: 20px;
 }
+
+/* Main elements - Buttons styling */
+
+.btn-main {
+  padding: 10px;
+  margin: 0px 5px;
+  background-color: #f8f9fa;
+  border: 1px solid #f8f9fa;
+  border-radius: 4px; 
+  font-size: 14px;
+}
