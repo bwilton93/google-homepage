@@ -75,6 +75,12 @@ body {
   box-shadow: none;
   width: 90%;
   margin-left: 5px;
+  font-size: 16;
+  background: #fff;
+}
+
+.search-box:focus {
+  outline: none;
 }
 
 .search-image {
