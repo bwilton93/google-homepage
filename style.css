@@ -131,6 +131,14 @@ body {
 
 /* Main elements styling */
 
+#form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  width: 100%;
+}
+
 .main-elements {
   display: flex;
   flex-direction: column;
@@ -179,11 +187,34 @@ body {
 
 /* Main elements - Buttons styling */
 
+.search-buttons {
+  max-width: 320px;
+  width: 90%;
+  display: flex;
+  justify-content: space-around;
+}
+
 .btn-main {
+  height: 36px;
+  width: 100%;
+  min-width: 54px;
   padding: 10px;
-  margin: 0px 5px;
   background-color: #f8f9fa;
   border: 1px solid #f8f9fa;
-  border-radius: 4px; 
+  border-radius: 6px; 
   font-size: 14px;
+  visibility: visible;
+}
+
+.btn-main-border {
+  height: 36px;
+  border-radius: 6px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: rgba(0,0,0,.15);
+  visibility: hidden;
+}
+
+.btn-main-border:hover {
+  visibility: visible;
 }
