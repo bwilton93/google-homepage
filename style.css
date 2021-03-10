@@ -206,6 +206,10 @@ body {
   visibility: visible;
 }
 
+.btn-main:focus {
+  outline: 0;
+}
+
 .btn-main-border {
   height: 36px;
   border-radius: 6px;
