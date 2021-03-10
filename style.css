@@ -317,14 +317,14 @@ body {
 }
 
 @media screen and (max-width: 600px) {
-#footer-two {
-  flex-direction: column;
-}
+  #footer-two {
+    flex-direction: column;
+  }
 
   #footer-start, #footer-middle, #footer-end {
     justify-content: center;
+    padding: 15px 0px;
   }
-
 
   #footer-start {
     order: 2;
