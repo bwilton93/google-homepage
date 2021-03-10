@@ -207,7 +207,7 @@ body {
 }
 
 .btn-main:focus {
-  outline-color: rgba(0,0,0,0.15);
+  outline-color: rgba(0,0,0,.15);
 }
 
 .btn-main-border {
